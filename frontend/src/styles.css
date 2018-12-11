@@ -1,4 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: 'Roboto', sans-serif; }
+body { margin: 0; font-family: 'Roboto', sans-serif; background: #acacac
+}
+
+.mat-card {
+    margin-top: -20px;
+}
+
+#saveBtn {
+    margin-left: 10px;
+}
+
+.lightBlueBtn {
+    background: #7fbdfb;
+    color: white;
+}

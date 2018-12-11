@@ -1,0 +1,6 @@
+.bannerWithTitle {
+    background: #7fbdfb;
+    z-index: 999;
+    position: relative;
+    padding: 0 24px; 
+}
