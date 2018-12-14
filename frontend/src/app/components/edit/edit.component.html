@@ -4,7 +4,7 @@
     <section class="mat-typography">
       <h3>Update Issue</h3>
     </section>
-    <mat-divider></mat-divider>
+    <!-- <mat-divider></mat-divider> -->
     <br>
     <form [formGroup]="updateForm" class="edit-form">
       <mat-form-field class="field-full-width">
@@ -30,7 +30,7 @@
           <mat-option value="Done">Done</mat-option>
         </mat-select>
       </mat-form-field>
-      <mat-divider></mat-divider>
+      <!-- <mat-divider></mat-divider> -->
       <br><br>
       <button class="lightBlueBtn" mat-raised-button routerLink="/list">Back</button>
       <button id="saveBtn" type="submit" (click)="updateIssue(title.value, responsible.value, description.value, severity.value, status.value)" [disabled]="updateForm.pristine || createForm.invalid" mat-raised-button color="primary">Save</button>

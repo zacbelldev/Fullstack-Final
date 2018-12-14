@@ -6,6 +6,8 @@ body { margin: 0; font-family: 'Roboto', sans-serif; background: #acacac
 
 .mat-card {
     margin-top: -20px;
+    padding: 24px 24px 65px 24px !important;
+    margin: 3px 20px;
 }
 
 #saveBtn {

@@ -4,7 +4,7 @@
     <section class="mat-typography">
       <h3>Create a New Issue</h3>
     </section>
-    <mat-divider></mat-divider>
+    <!-- <mat-divider></mat-divider> -->
     <br>
     <form [formGroup]="createForm" class="create-form">
       <mat-form-field class="field-full-width">
@@ -23,7 +23,7 @@
           <mat-option value="High">High</mat-option>
         </mat-select>
       </mat-form-field>
-      <mat-divider></mat-divider>
+      <!-- <mat-divider></mat-divider> -->
       <br><br>
       <button mat-raised-button class="lightBlueBtn" routerLink="/list">Back</button>
       <button id="saveBtn" type="submit" (click)="addIssue(title.value, responsible.value, description.value, severity.value)" [disabled]="createForm.pristine || createForm.invalid" mat-raised-button color="primary">Save</button>
